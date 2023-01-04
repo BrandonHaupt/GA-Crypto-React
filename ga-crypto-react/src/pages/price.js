@@ -4,6 +4,7 @@ export default function Price(props){
 
     // Get the Data fetched by our loader
     const coin = useLoaderData()
+    console.log(coin)
 
     return(
         <div>
